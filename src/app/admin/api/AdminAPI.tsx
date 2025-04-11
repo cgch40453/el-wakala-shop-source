@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function AdminAPI() {
     const { user } = useAuth();
     const router = useRouter();
-    const [apiKey, setApiKey] = useState('ad71f238b446279be1f10dd7bc91103acc8f5e84');
+    const [apiKey, setApiKey] = useState('3f08896fa987a49acd6dbaa09fd6ec5f');
 
     // Mock API settings
     const apiSettings = {
