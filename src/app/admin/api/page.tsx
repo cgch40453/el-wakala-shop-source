@@ -12,6 +12,7 @@ export default function AdminAPI() {
   const { user } = useAuth();
   const router = useRouter();
   const [apiKey, setApiKey] = useState('');
+    const [apiKey, setApiKey] = useState('ad71f238b446279be1f10dd7bc91103acc8f5e84');
 
   // Mock API settings
   const apiSettings = {
